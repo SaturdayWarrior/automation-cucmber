@@ -1,0 +1,836 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14920445500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify that user add product to cart successfully",
+        "description": "",
+        "id": "test-women-category-page;verify-that-user-add-product-to-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 859323200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 244092600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on homepage",
+            "match": {
+              "location": "SignInSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4345076800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on women tab",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnWomenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86406200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should successfully navigate to women category page and verify \u003c\"WOMEN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WOMEN",
+                  "offset": 70
+                }
+              ],
+              "location": "WomenCategorySteps.userShouldSuccessfullyNavigateToWomenCategoryPageAndVerify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3953146800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the product \"Blouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blouse",
+                  "offset": 27
+                }
+              ],
+              "location": "WomenCategorySteps.userClickOnTheProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311610900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User change quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "WomenCategorySteps.userChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292018300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select size \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M",
+                  "offset": 18
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectSize(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110412600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select colour \"White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "White",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95451200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Add To Cart Button",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50446300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify the message \u003c\"Product successfully added to your shopping cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product successfully added to your shopping cart",
+                  "offset": 21
+                }
+              ],
+              "location": "WomenCategorySteps.verifyTheMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on X button and close the popup",
+            "match": {
+              "location": "WomenCategorySteps.clickOnXButtonAndCloseThePopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@WomenAddToCart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8164926300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify that user add product to cart successfully",
+        "description": "",
+        "id": "test-women-category-page;verify-that-user-add-product-to-cart-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 829329500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on homepage",
+            "match": {
+              "location": "SignInSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3046412600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on women tab",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnWomenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58951200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should successfully navigate to women category page and verify \u003c\"WOMEN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WOMEN",
+                  "offset": 70
+                }
+              ],
+              "location": "WomenCategorySteps.userShouldSuccessfullyNavigateToWomenCategoryPageAndVerify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2188420200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the product \"Printed Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Dress",
+                  "offset": 27
+                }
+              ],
+              "location": "WomenCategorySteps.userClickOnTheProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292889800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User change quantity \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "WomenCategorySteps.userChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263892300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select size \"L\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "L",
+                  "offset": 18
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectSize(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98042300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select colour \"Orange\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Orange",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86101800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Add To Cart Button",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41448700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify the message \u003c\"Product successfully added to your shopping cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product successfully added to your shopping cart",
+                  "offset": 21
+                }
+              ],
+              "location": "WomenCategorySteps.verifyTheMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on X button and close the popup",
+            "match": {
+              "location": "WomenCategorySteps.clickOnXButtonAndCloseThePopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@WomenAddToCart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9225380100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify that user add product to cart successfully",
+        "description": "",
+        "id": "test-women-category-page;verify-that-user-add-product-to-cart-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 822879400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on homepage",
+            "match": {
+              "location": "SignInSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2754347700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on women tab",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnWomenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69928800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should successfully navigate to women category page and verify \u003c\"WOMEN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WOMEN",
+                  "offset": 70
+                }
+              ],
+              "location": "WomenCategorySteps.userShouldSuccessfullyNavigateToWomenCategoryPageAndVerify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2843330600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the product \"Printed Chiffon Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Chiffon Dress",
+                  "offset": 27
+                }
+              ],
+              "location": "WomenCategorySteps.userClickOnTheProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289588600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User change quantity \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 22
+                }
+              ],
+              "location": "WomenCategorySteps.userChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138038600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select size \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 18
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectSize(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207858500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select colour \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71274400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Add To Cart Button",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40321700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify the message \u003c\"Product successfully added to your shopping cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product successfully added to your shopping cart",
+                  "offset": 21
+                }
+              ],
+              "location": "WomenCategorySteps.verifyTheMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on X button and close the popup",
+            "match": {
+              "location": "WomenCategorySteps.clickOnXButtonAndCloseThePopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@WomenAddToCart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10782388600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify that user add product to cart successfully",
+        "description": "",
+        "id": "test-women-category-page;verify-that-user-add-product-to-cart-successfully;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 808412500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on homepage",
+            "match": {
+              "location": "SignInSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3427451300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on women tab",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnWomenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87186700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should successfully navigate to women category page and verify \u003c\"WOMEN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WOMEN",
+                  "offset": 70
+                }
+              ],
+              "location": "WomenCategorySteps.userShouldSuccessfullyNavigateToWomenCategoryPageAndVerify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2353389600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the product \"Printed Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 27
+                }
+              ],
+              "location": "WomenCategorySteps.userClickOnTheProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293037400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User change quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "WomenCategorySteps.userChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200288700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select size \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M",
+                  "offset": 18
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectSize(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83966600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select colour \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategorySteps.userSelectColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84076800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Add To Cart Button",
+            "match": {
+              "location": "WomenCategorySteps.userClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35740000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify the message \u003c\"Product successfully added to your shopping cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product successfully added to your shopping cart",
+                  "offset": 21
+                }
+              ],
+              "location": "WomenCategorySteps.verifyTheMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on X button and close the popup",
+            "match": {
+              "location": "WomenCategorySteps.clickOnXButtonAndCloseThePopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@WomenAddToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Test women category page",
+    "description": "",
+    "id": "test-women-category-page",
+    "keyword": "Feature",
+    "uri": "womenCategoryTest.feature"
+  }
+]
